@@ -32,6 +32,10 @@ def get_filters():
 fullname= 'emmanuel kaosi'
 print(fullname.title())
 
+# To add my fullname in lowercase function
+fullname= 'EMMANUEL KAOSI'
+print(fullname.islower())
+
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
