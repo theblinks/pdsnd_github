@@ -28,6 +28,13 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+# To add my fullname in Title function
+fullname= 'emmanuel kaosi'
+print(fullname.title())
+
+# To add my fullname in lowercase function
+fullname= 'EMMANUEL KAOSI'
+print(fullname.islower())
 
 def load_data(city, month, day):
     """
@@ -145,9 +152,9 @@ def main():
 if __name__ == "__main__":
 	main()
 
-# To print "Mohammed has 27 balloons"
-print('Mohammed has {} balloons'.format(27))
+# To print "Mohammed has 19 balloons"
+print('Mohammed has {} balloons'.format(19))
 
 # To print "my project remark"
-project_name = 'Version Control' remark = 'Excellent'
+project_name = 'Version Control' remark = 'Third time is a charm'
 print('Your {} project is {}'.format(projrct_name,remark))
