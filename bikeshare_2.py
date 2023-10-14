@@ -28,6 +28,9 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+# To add my fullname in Title function
+fullname= 'emmanuel kaosi'
+print(fullname.title())
 
 def load_data(city, month, day):
     """
