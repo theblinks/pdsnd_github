@@ -145,8 +145,8 @@ def main():
 if __name__ == "__main__":
 	main()
 
-# To print "Mohammed has 27 balloons"
-print('Mohammed has {} balloons'.format(27))
+# To print "Mohammed has 19 balloons"
+print('Mohammed has {} balloons'.format(19))
 
 # To print "my project remark"
 project_name = 'Version Control' remark = 'Excellent'
